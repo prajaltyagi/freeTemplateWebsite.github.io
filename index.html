@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .body{
+            background-image:linear-gradient(rgba(10, 10, 10, 0.8),rgba(10, 10, 10, 0.8)),url(images/cover.jpg);
+            /* background-color: black; */
+            /* background-image: linear-gradient(); */
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        .main h1{
+            color: whitesmoke;
+            font-size: 70px;
+        }
+        span{
+            color: rgb(4, 146, 104);
+        }
+        .main p{
+            color: whitesmoke;
+        }
+        .btn1 a {
+            text-decoration: none;
+            color: white;
+            
+        }
+        .btn2 a{
+            text-decoration: none;
+            color: white;
+            
+        }
+        .btn1{
+            width: 200px;
+            height: 40px; 
+            background-color: transparent;
+            border: 1px solid whitesmoke;
+            border-radius: 20px;
+            cursor: pointer;
+        }
+        .btn2{
+            width: 200px;
+            height: 40px;
+            background-color: rgb(4, 146, 104);
+            border: 1px solid rgb(4, 146, 104);
+            border-radius: 20px;
+            cursor: pointer;
+            margin-left: 10px;
+        }
+        .btn2:hover{
+            background-color: rgb(3, 102, 72);
+        }
+        .btn1:hover{
+            box-shadow: 0 0 1px 1px #fff;
+        }
+    </style>
+</head>
+<body>
+    <div class="body">
+        <div class="main">
+<h1><span >Free</span> Template Website</h1><br>
+<p>A <span>template</span> is simply the layout and design the platform applies over your content. Sometimes referred to as a <span>"skin,"</span> templates are interchangeable and affect website elements such as: <span>Fonts. Colors.</span></p><br>
+<div class="btns">
+<button class="btn1"><a href="signup.php">Add Account</button>
+<button class="btn2"><a href="login.php">Get Started</a></button>
+</div>
+        </div>
+    </div>
+</body>
+</html>
